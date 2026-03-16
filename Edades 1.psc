@@ -1,0 +1,13 @@
+Proceso sin_titulo
+	Definir edad como entero;
+	Escribir "¿Que edad tienes?";
+	Leer edad;
+	
+	
+	Si edad > 18 Entonces
+		Escribir "Eres mayor de edad";
+	SiNo
+		Escribir "Eres menor de edad";
+	FinSi
+	
+FinProceso
