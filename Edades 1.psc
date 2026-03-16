@@ -1,10 +1,10 @@
-Proceso sin_titulo
+Proceso edades
 	Definir edad como entero;
-	Escribir "¿Que edad tienes?";
+	Escribir "Â¿Que edad tienes?";
 	Leer edad;
 	
 	
-	Si edad > 18 Entonces
+	Si edad = 18 o edad > 18 Entonces
 		Escribir "Eres mayor de edad";
 	SiNo
 		Escribir "Eres menor de edad";
